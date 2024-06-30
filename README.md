@@ -1,5 +1,3 @@
-<p align="center"><img src="https://masonric.com/images/masonric.png" width="800" alt="MASONRIC Logo" /></p>
-
 # MASONRIC
 
 MASONRIC is a minimalist Statamic Starter Kit designed to elegantly display gallery pictures, ideal for photographers, artists, and creatives. It features a clean, modern layout with a sleek logo on the top left and simple navigation on the top right, providing an intuitive user experience. The main content area includes a beautiful masonry grid that showcases pictures in a visually appealing way, making it perfect for professional portfolios or personal galleries. MASONRIC's minimalist design reduces distractions and keeps the focus on your work.
@@ -17,10 +15,7 @@ MASONRIC is a minimalist Statamic Starter Kit designed to elegantly display gall
 
 ## Masonry Grid Gallery Assets
 
-MASONRIC's grid is powered by [markmead's AlpineJS-Masonry plugin](https://github.com/markmead/alpinejs-masonry). You can customize the number of columns (between 1 to 12) for the gallery to fit your needs in the Global settings. All the pictures displayed on the home page are in the "Gallery" asset container and uses the File Driver Disk "gallery" already configured in config/filesystems.php. The following fieldsets are available for the gallery pictures :
-- Alt Text (optional)
-- Linked entry (optional)
-- Credits (optional)
+MASONRIC's grid is powered by [markmead's AlpineJS-Masonry plugin](https://github.com/markmead/alpinejs-masonry). You can customize the number of columns (between 1 to 12) for the gallery to fit your needs in the Global settings. All the pictures displayed on the home page are in the "Gallery" asset container and uses the File Driver Disk "gallery" already configured in config/filesystems.php.
 
 ## Collections
 
