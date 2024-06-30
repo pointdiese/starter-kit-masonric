@@ -1,16 +1,36 @@
 {
   "resources/css/site.css": {
-    "file": "assets/site-DK7v3UBc.css",
+    "file": "assets/site-DqSoT7o8.css",
     "src": "resources/css/site.css",
     "isEntry": true
   },
   "resources/css/tailwind.css": {
-    "file": "assets/tailwind-DezQgin7.css",
+    "file": "assets/tailwind--fyeif5q.css",
     "src": "resources/css/tailwind.css",
     "isEntry": true
   },
+  "resources/fonts/LeagueGothic-Regular.ttf": {
+    "file": "assets/LeagueGothic-Regular-T1Gd7_zS.ttf",
+    "src": "resources/fonts/LeagueGothic-Regular.ttf"
+  },
+  "resources/fonts/RobotoCondensed-Black.ttf": {
+    "file": "assets/RobotoCondensed-Black-I3yHG28G.ttf",
+    "src": "resources/fonts/RobotoCondensed-Black.ttf"
+  },
+  "resources/fonts/RobotoCondensed-Bold.ttf": {
+    "file": "assets/RobotoCondensed-Bold-lhNUVRXU.ttf",
+    "src": "resources/fonts/RobotoCondensed-Bold.ttf"
+  },
+  "resources/fonts/RobotoCondensed-Regular.ttf": {
+    "file": "assets/RobotoCondensed-Regular-CYkzI7a4.ttf",
+    "src": "resources/fonts/RobotoCondensed-Regular.ttf"
+  },
+  "resources/fonts/RobotoCondensed-SemiBold.ttf": {
+    "file": "assets/RobotoCondensed-SemiBold-CeqDY5ZK.ttf",
+    "src": "resources/fonts/RobotoCondensed-SemiBold.ttf"
+  },
   "resources/js/site.js": {
-    "file": "assets/site-l0sNRNKZ.js",
+    "file": "assets/site-52PUYj1C.js",
     "name": "site",
     "src": "resources/js/site.js",
     "isEntry": true

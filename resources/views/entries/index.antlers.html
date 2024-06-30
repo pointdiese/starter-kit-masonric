@@ -1,5 +1,5 @@
 <div class="container w-full px-1 mx-auto md:px-0"  x-data="{ show: false }" x-intersect="show = true">
-    <div class="grid grid-cols-1 gap-2 md:grid-cols-3" x-data x-masonry>
+    <div class="grid grid-cols-1 gap-2 md:grid-cols-3" x-data x-masonry.poll.2000>
         {{ collection:entries }}
             <div class="flex flex-col gap-0 h-fit active:translate-y-2" x-show="show"
                 x-transition:enter="transition ease-in duration-500"
