@@ -1,34 +1,34 @@
 @font-face {
     font-family: 'League Gothic';
-    src: url('/resources/fonts/LeagueGothic-Regular.ttf') format('ttf');
+    src: url('/resources/fonts/LeagueGothic-Regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
 }
 @font-face {
     font-family: "Roboto Condensed", sans-serif;
-    src: url('../../resources/fonts/RobotoCondensed-Black.ttf') format('ttf');
+    src: url('../../resources/fonts/RobotoCondensed-Black.ttf') format('truetype');
     font-optical-sizing: auto;
     font-weight: 900;
     font-style: normal;
 }
 @font-face {
     font-family: "Roboto Condensed", sans-serif;
-    src: url('../../resources/fonts/RobotoCondensed-Bold.ttf') format('ttf');
+    src: url('../../resources/fonts/RobotoCondensed-Bold.ttf') format('truetype');
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
 }
 @font-face {
     font-family: "Roboto Condensed", sans-serif;
-    src: url('../../resources/fonts/RobotoCondensed-Regular.ttf') format('ttf');
+    src: url('../../resources/fonts/RobotoCondensed-Regular.ttf') format('truetype');
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
 }
 @font-face {
     font-family: "Roboto Condensed", sans-serif;
-    src: url('../../resources/fonts/RobotoCondensed-SemiBold.ttf') format('ttf');
+    src: url('../../resources/fonts/RobotoCondensed-SemiBold.ttf') format('truetype');
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
