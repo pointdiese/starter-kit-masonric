@@ -16,7 +16,9 @@
                 <a href="{{ url }}">
                 {{ hero }}
                 <div class="relative">
-                    <img src="{{ glide src="{{ hero }}" format="webp" }}" alt="{{ alt }}">
+                    {{ glide:hero format="webp" }}
+                    <img src="{{ hero }}" width="{{ width }}" height="{{ height }}" alt="{{ alt }}"/>
+                    {{ /glide:hero }}
                     {{ if disable_save_as }}
                         <div class="absolute top-0 left-0 w-full h-full overlay">
                         </div>
