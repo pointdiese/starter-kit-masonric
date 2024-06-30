@@ -1,0 +1,9 @@
+{{ if hero }}
+    {{ partial:hero }}
+{{ /if hero }}
+{{ if content }}
+    <div class="px-1 mb-12 prose sm:px-0">
+        {{ content }}
+    </div>
+{{ /if content }}
+{{ partial:masonry }}

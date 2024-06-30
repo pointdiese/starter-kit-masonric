@@ -1,0 +1,9 @@
+{
+    "name": "pointdiese/starter-kit-masonric",
+    "extra": {
+        "statamic": {
+            "name": "MASONRIC",
+            "description": "Starter Kit Masonric | Portfolio and blog"
+        }
+    }
+}

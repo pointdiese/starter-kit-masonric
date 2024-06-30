@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="{{ site:short_locale }}">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>{{ title ?? site_name }} | {{ site_name }}</title>
+        <meta name="description" content="{{ global:tagline ?? "My Statamic Site" }}">
+        <meta property="og:title" content="{{ title ?? site_name }}">
+        <meta property="og:site_name" content="{{ site_name ?? config:app:name }}">
+        <meta property="og:type" content="website">
+        <meta property="og:locale" content="{{ site:locale }}">
+        <meta property="og:description" content="{{ global:tagline ?? "My Statamic Site" }}">
+        <link rel="sitemap" href="/sitemap.xml" type="application/xml">
+        <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/feed.xml">
+        <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
+        <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=League+Gothic&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        {{ vite src="resources/js/site.js|resources/css/tailwind.css" }}
+        <script defer src="https://unpkg.com/alpinejs-masonry@latest/dist/masonry.min.js" ></script>
+        <script defer src="https://cdn.jsdelivr.net/npm/@alpinejs/intersect@3.x.x/dist/cdn.min.js"></script>
+        <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    </head>
+    <body class="text-black bg-white font-roboto-condensed">
+        {{ partial:nav }}
+        <article class="flex flex-col items-center pt-6 mx-auto sm:pt-0">
+            {{ template_content }}
+        </article>
+        {{ partial:footer }}
+    </body>
+</html>

@@ -1,0 +1,43 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: name
+            field:
+              placeholder: 'Your name'
+              type: text
+              display: Name
+              validate:
+                - required
+          -
+            handle: email
+            field:
+              input_type: email
+              placeholder: 'Your email'
+              type: text
+              display: Email
+              validate:
+                - required
+          -
+            handle: contact_reason
+            field:
+              options:
+                Pricing: Pricing
+                Feedback: Feedback
+                Collaboration: 'Collab Request'
+              placeholder: 'Choose reason...'
+              type: select
+              display: 'Contact reason'
+              validate:
+                - required
+          -
+            handle: message
+            field:
+              placeholder: 'Your message'
+              type: textarea
+              display: Message
+              validate:
+                - required

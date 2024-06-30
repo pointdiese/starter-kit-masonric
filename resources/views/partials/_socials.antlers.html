@@ -1,0 +1,9 @@
+{{ if social }}
+    <ul class="flex flex-row gap-1.5 px-2">
+        {{ social }}
+            <a href="{{ url }}" class="">
+                <img class="w-5 h-5" src="{{ icon }}" alt="{{ name }} icon">
+            </a>
+        {{ /social }}
+    </ul>
+{{ /if social }}

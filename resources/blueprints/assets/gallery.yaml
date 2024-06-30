@@ -1,0 +1,26 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: alt
+            field:
+              type: text
+              display: 'Alt Text'
+              instructions: 'Description of the image'
+          -
+            handle: linked_entry
+            field:
+              max_items: 1
+              collections:
+                - entries
+              type: entries
+              display: 'Linked entry'
+              instructions: 'Link to an entry'
+          -
+            handle: credits
+            field:
+              type: text
+              display: Credits

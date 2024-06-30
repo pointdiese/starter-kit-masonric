@@ -1,0 +1,28 @@
+<section>
+    <div class="pb-4">
+        <span class="font-mono text-xs">{{ date }}</span>
+    </div>
+</section>
+{{ partial:heading }}
+{{ partial:hero }}
+<section class="prose sm:px-0">
+    {{ content }}
+</section>
+{{ if gallery }}
+    <section class="py-12">
+        <div class="container max-w-2xl px-0 mx-auto"  x-data="{ show: false }" x-intersect="show = true">
+            <div class="grid grid-cols-1 gap-2 md:grid-cols-2" x-data x-masonry>
+                {{ gallery }}
+                    <div class="flex flex-col gap-0 h-fit" x-show="show">
+                        <div class="relative">
+                            <img src="{{ glide src="{{ url }}" format="webp" }}" alt="{{ alt }}">
+                            {{ if disable_save_as }}
+                                <div class="absolute top-0 left-0 w-full h-full overlay"></div>
+                            {{ /if disable_save_as }}
+                        </div>
+                    </div>
+                {{ /gallery }}
+            </div>
+        </div>
+    </section>
+ {{ /if gallery }}

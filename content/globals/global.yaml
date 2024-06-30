@@ -1,0 +1,28 @@
+title: Global
+data:
+  site_name: MASONRIC
+  tagline: 'Just a simple masonry-styled gallery'
+  social:
+    -
+      id: ly03bhyo
+      name: Béhance
+      url: 'https://behance.com'
+      icon: social-icons/behance.svg
+    -
+      id: ly03bnsy
+      name: Dribbble
+      url: 'https://dribbble.com'
+      icon: social-icons/dribbble.svg
+    -
+      id: ly03bzjm
+      name: TikTok
+      url: 'https://tiktok.com'
+      icon: social-icons/tiktok.svg
+    -
+      id: ly03c04a
+      name: Tumblr
+      url: 'https://tumblr.com'
+      icon: social-icons/tumblr.svg
+  gallery_columns: '3'
+  disable_save_as: true
+  copyright: 'MASONRIC for <a href="https://statamic.com">Statamic</a>.'
