@@ -5,11 +5,13 @@
             <a href="{{ url }}">
         {{ /linked_entry }}
     {{ /if linked_entry }}
-        <img src="{{ glide src="{{ url }}"  format="webp" }}" alt="{{ alt }} "
+        {{ glide:url format="webp" }}
+        <img src="{{ url }}" width="{{ width }}" height="{{ height }}" alt="{{ alt }}"
             x-show="show"
             x-transition:enter="transition ease-in duration-500"
             x-transition:enter-start="opacity-0 translate-y-12"
             x-transition:enter-end="opacity-100 translate-y-0"/>
+        {{ /glide:url }}
         {{ if disable_save_as }}
             <div class="absolute top-0 left-0 w-full h-full overlay">
             </div>
